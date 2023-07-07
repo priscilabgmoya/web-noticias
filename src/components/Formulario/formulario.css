@@ -1,0 +1,13 @@
+.contenedor-select{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.contenedor-select select {
+    width: 50%;
+    margin: 15px;
+}
+.contenedor-select label {
+    font-size: 18px;
+}
