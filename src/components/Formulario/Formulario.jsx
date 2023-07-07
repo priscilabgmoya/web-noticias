@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './formulario.css'; 
 import Form from 'react-bootstrap/Form';
 function Formulario ( {navegar}){
