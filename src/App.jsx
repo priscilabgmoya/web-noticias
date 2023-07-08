@@ -21,9 +21,10 @@ function App() {
         element ={<NewApiNoticia  urlApi="https://newsdata.io/api/1/news?country=kr&apikey=pub_25842d657238c9ad6a9869121b8e7c9ff0708" />} />
         <Route  path='/bangladesh' 
         element ={<NewApiNoticia urlApi="https://newsdata.io/api/1/news?country=bd&apikey=pub_25842d657238c9ad6a9869121b8e7c9ff0708" />} />
+        <Route  path='/inicio' />
        </Routes>
     </div>
   )
 }
 
-export default App
+export default App; 

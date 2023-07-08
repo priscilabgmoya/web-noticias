@@ -12,7 +12,7 @@ function Formulario ( {navegar}){
         <div className='contenedor-select' > 
         <label htmlFor="selectPaises">Buscar por Pais: </label>
         <Form.Select aria-label="selectPaises" name='selectPaises' onChange={selectPais}>
-        <option selected disabled >Opciones</option>
+        <option selected value= "inicio" >Opciones</option>
         <option value="argentina">Argentina</option>
         <option value="corea-del-sur">Corea del sur</option>
         <option value="bangladesh">Bangladesh</option>
