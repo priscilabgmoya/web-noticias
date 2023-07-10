@@ -1,5 +1,5 @@
 import { useState , useEffect} from "react";
-import ListaNoticias from "../Lista-Noticias/LIstaNoticias";
+import ListaNoticias from "../Lista-Noticias/ListaNoticias";
 
 function NewApiNoticia ({urlApi}){
     const [noticias, setNoticias] = useState([]); 

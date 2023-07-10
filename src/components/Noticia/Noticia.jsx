@@ -13,7 +13,7 @@ function Noticia(props) {
         <Card.Title>{props.titulo}</Card.Title>
         <Card.Text>
           {seeMore ? props.descripcion : props.descripcion.slice(0, 100)}
-          {props.descripcion.length == 30 ? (
+          {props.descripcion.length <= 30 ? (
             ""
           ) : (
             <a className="item-leer" onClick={seeMoreChange}>
